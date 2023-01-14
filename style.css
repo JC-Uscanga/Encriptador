@@ -1,0 +1,198 @@
+body{
+	background: #b7dbd3;
+}
+
+/*Imagenes*/
+
+.imagenLogoA{
+
+	position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+
+.imagenSarada{
+
+	position: absolute;
+	left: 10%;
+	top: 20%;
+
+	width: 300px;;
+    height: 350px;
+}
+
+.imagenContenerdor{
+
+	position: absolute;
+	left: 75.5%;
+	top: 5%;
+
+	width: 320px;;
+    height: 600px;
+}
+
+
+.imagenLol{
+
+	display: block;
+	position: absolute;
+	left: 76.5%;
+	top: 30%;
+	width: 290px;;
+    height: 200px;
+}
+
+.imgTexto{
+
+    display: block;
+	position: absolute;
+	left: 76.5%;
+	top: 60%;
+	width: 290px;;
+    height: 190px;
+
+
+}
+
+.soloMs{
+    position: absolute;
+	left: 30%;
+	top: 70%;
+}
+
+/*Contenido de Texto*/
+
+.cuadroTexto{
+
+	position: absolute;
+    left: 450px;
+    top: 200px;
+    
+    border: 2px solid transparent;
+    background-color: transparent;
+    color: #0d0c22;
+    transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    font-style: italic;
+    font-size: 25px;
+    width: 35%;
+    height:35%;
+    resize: none;
+    padding-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.cuadroTexto:focus,
+.cuadroTexto:hover {
+    outline: none;
+    padding: .2rem 1rem;
+    border-radius: 1rem;
+    border-color: #7a9cc6;
+}
+
+.cuadroTexto::placeholder {
+    color: #777;
+}
+
+.cuadroTexto:focus::placeholder {
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+
+.resultado{
+    position: absolute;
+    top: 15%;
+    left: 77.3%;
+    right: 3%;
+    height: 65%;
+    resize: none;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    pointer-events: none;
+}
+
+.contenedorP{
+
+    position: absolute;
+    left: 77%;
+	top: 55%;
+    width: 20%;
+    height: 30%;
+    background: transparent;
+   
+    
+}
+.contenedorP p:nth-child(1) {
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.contenedorP p:nth-child(2) {
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    
+}
+
+
+
+/*Botones*/
+
+.boton1{
+
+    position: absolute;
+    left: 33%;
+    top: 75%;
+}
+
+.boton2{
+
+    position: absolute;
+    left: 50%;
+    top: 75%;
+}
+
+.boton3, .boton4{
+
+    display: none;
+    position: absolute;
+    left: 80%;
+    top: 80%;
+}
+
+.boton1, .boton2, .boton3, .boton4 {
+    color: #ffffff;
+    padding: 0.7em 1.7em;
+    width: 200px;
+    height: 35px;
+    border-radius: 0.9em;
+    background: #c70275;
+    border: 1px solid #ebc7f7;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+
+.boton1:hover, .boton2:hover, .boton3:hover, .boton4:hover {
+    border: 1px solid white;
+    transform:scale(1.1);
+}
+
+.boton1:active, .boton2:active, .boton3:active, .boton4:active{
+    box-shadow: 4px 4px 12px #c5c5c5,
+        -4px -4px 12px #ffffff;
+
+}
+
+/*Pie de Pagina*/
+.copyright{
+    color:#111111;
+    text-align: center;
+    margin-top: 45%;
+    
+}
